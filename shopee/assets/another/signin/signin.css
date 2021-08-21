@@ -1,0 +1,256 @@
+
+*{
+    top:0;
+    left:0;
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 62.5%; */
+}
+html{
+    color:#313131;
+}
+a{
+    text-decoration: none;
+
+}
+li {
+    list-style: none!important;
+}
+.pd-12{
+    padding:12px;
+}
+input {
+    outline: none!important;
+}
+header.header {
+    display: flex;
+    margin: 16px auto;
+    justify-content: space-between; 
+    align-items: center;
+}
+.logo {
+    display: flex;
+}
+.logo img {
+    height: 54px;
+}
+.help a{
+    color: #313131;
+    font-size: 20px;
+}
+.logo h2{
+     margin-top: 20px;
+     font-weight: 400;
+}
+.bgc{
+    background-color: #EE4D2D ;
+
+}
+.content {
+    width: 1040px;
+    height: 600px;
+    background-image:url(/assets/img/login/background.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.box-cover{
+    background-color: #fff;
+    padding: 0 30px;
+    border-radius: 4px;
+    width: 480px;
+}
+.open{
+    display: inline-block!important ;
+
+}
+.close{
+    display: none!important;
+}
+.eye{ padding: 0 8px;
+}
+.text-header {
+  padding:22px 0;
+  font-size: 24px;
+  font-weight: 400;
+
+}
+.email,
+.password, .box-cover>button  {
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+.email{
+     display: flex;
+
+    
+}
+.email input{
+    flex :1;
+}
+.password{
+    border: 1px solid currentColor;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password>input {
+    border: none;
+    flex: 1;
+}
+.box-cover>button  {
+    width: 100%;
+    background-color: #EE4D2D ;
+    border: none;
+    border-radius: 4px; 
+    color:#fff;
+
+}
+.more-login {
+    display: flex;
+    justify-content: space-between;
+ 
+    padding: 12px; 
+
+}
+.more-login a{
+    color: #000;
+}
+.more-login a:hover{
+    color: #EE4D2D;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.or span {
+    padding: 12px;
+}
+.or::before, .or::after
+{
+    content: "";
+    height: 1px; 
+    flex:1;
+    background-color: #313131;
+
+    
+}
+.or::after{
+    content: "";
+}
+.login-by{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding :8px;
+    min-width: 120px;
+
+}
+.box img {
+    height:22px;
+    width: 22px;
+    margin-right: 4px;
+}
+.box p {
+    display: inline-block; 
+    color: #fff;
+
+}
+.facebook{
+    background-color: #1877F2;
+}
+.google {
+
+    background-color: #fff;
+    box-shadow: 0 0 5px #c7c7c7b0;
+}
+.google p {
+    color: #000;
+}
+.apple {
+    background-color: #000000e8;
+}
+.more{
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+.more p{
+    display: inline-block;
+
+}
+.text-more-login, 
+.text-more-signin{
+    color: #EE4D2D;
+    cursor:pointer;
+}
+
+
+
+
+
+.footer__content{
+    display: flex;
+    border-top:2px solid #313131;
+    margin-top:120px ;
+    justify-content: space-between;
+    padding: 50px 0;
+    font-size: 14px;
+}
+.footer__content h4 {
+    padding: 20px 0;
+}
+.paymet-deliverly{
+    width:180px;
+    max-width:100%;
+}
+.footer__row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+}
+.paymet-deliverly img{
+    width:50px;
+    max-width:100%;
+    margin: auto ;
+    cursor: pointer;
+
+}
+.footer__qr-app-img img {
+   width: 80%;
+   cursor: pointer; 
+}
+.follow a {
+    color:#313131;
+    display: block;
+    margin : 4px 0;
+    padding : 4px 0;
+    font-size: 14px;
+}
+.follow i, 
+.follow p {
+    display: inline-block;
+}
+.footer__content ul li{
+    margin : 4px 0;
+    cursor: pointer;
+}
+.footer__content ul li:hover,
+.follow p:hover {
+    color: #EE4D2D;
+
+}
